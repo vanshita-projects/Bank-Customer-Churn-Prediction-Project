@@ -23,4 +23,70 @@
 
 ## •	Estimated Salary- Estimated salary of the customer in Domain
 
+## Steps to build a model are-
+
+## 1]Data collection 
+
+## 2]Data preprocessing
+
+## 3]Exploratory data analysis
+
+## 4]Feature engineering
+
+## 5]Model selection and training- I have choosen 5 ML algorithms and trained them on train data by implementing following steps as:-
+## A) Logistic regression –
+a.	Import the Logistic Regression model from sklearn.linear_model.
+b.	Create an instance of Logistic Regression model.
+c.	Now train the model.
+d.	Perform the prediction.
+e.	Check the accuracy score, precision score, recall score & F1 score. Draw the classification report.
+f.	Draw the confusion matrix.
+g.	Draw the ROC-AUC curve.
+
+## B) KNearest Neighbour –
+a.	Import the KNeighborsClassifier model from sklearn.neighbors
+b.	Create an instance of KNeighborsClassifier model.
+c.	Now train the model.
+d.	Perform the prediction.
+e.	Check the accuracy score, precision score, recall score & F1 score. Draw the classification report.
+f.	Draw the confusion matrix.
+g.	Draw the ROC-AUC curve.
+
+## C) Decision Tree –
+a.	Import the DecisionTreeClassifier model from sklearn.tree
+b.	Create an instance of DecisionTreeClassifier model.
+c.	Now train the model.
+d.	Perform the prediction.
+e.	Check the accuracy score, precision score, recall score & F1 score. Draw the classification report.
+f.	Draw the confusion matrix.
+g.	Draw the ROC-AUC curve.
+
+## D) Random Forest –
+a.	Import the RandomForestClassifier model from sklearn.ensemble
+b.	Create an instance of RandomForestClassifier model.
+c.	Now train the model.
+d.	Perform the prediction.
+e.	Check the accuracy score, precision score, recall score & F1 score. Draw the classification report.
+f.	Draw the confusion matrix.
+g.	Draw the ROC-AUC curve.
+
+## E) Gradient Boosting–
+a.	Import the GradientBoostingClassifier from sklearn.ensemble
+b.	Create an instance of GradientBoostingClassifier model.
+c.	Now train the model.
+d.	Perform the prediction.
+e.	Check the accuracy score, precision score, recall score & F1 score. Draw the classification report.
+f.	Draw the confusion matrix.
+g.	Draw the ROC-AUC curve.
+
+## 6]Model Evaluation
+
+## 7]Save the model
+
+## 8]User interface development
+
+
+
+
+
 
