@@ -1,6 +1,6 @@
 # **BANK CUSTOMER CHURN PREDICTION PROJECT**
 
-## **INTRODUCTION-**
+# INTRODUCTION-
 
 ## A Bank is a financial institution licensed to receive deposits and make loans. Banks may also provide financial services such as wealth management, currency exchange. When new customers start buying and/or using a product in a bank, each new user contributes to the bank product’s growth rate. Certainly, some of those customers in due course will stop their utilization or end their subscription; this could be because they switched to a competitor, no longer need the bank services, they’re unhappy with their user experience, or they can no longer afford the cost. The customers that stop using the bank products are the “churn” for a given period. Which can be can be a monthly, quarterly, or annual churn rate at the bank. This leads to the importance of churn management in organizations such as a bank.
 
@@ -23,17 +23,22 @@
 
 ## •	Estimated Salary- Estimated salary of the customer in Domain
 
-## Steps to build a model are-
+# STEPS-
 
-## 1]Data collection 
+## 1]Data collection- 
+Collect the customer data from various sources.  
 
-## 2]Data preprocessing
+## 2]Data preprocessing- 
+Preprocess the data by cleaning, transforming, and normalizing it to prepare it for analysis.
 
-## 3]Exploratory data analysis
+## 3]Exploratory data analysis- 
+Analyze the data to identify missing values, patterns, outliers, correlations and insights that can be used to predict churn.
 
-## 4]Feature engineering
+## 4]Feature engineering- 
+Use feature engineering techniques to select and create the most predictive features for the model.
 
-## 5]Model selection and training- I have choosen 5 ML algorithms and trained them on train data by implementing following steps as:-
+## 5]Model selection and training- 
+I have choosen 5 ML algorithms and trained them on train data by implementing following steps as:-
 ## A) Logistic regression –
 a.	Import the Logistic Regression model from sklearn.linear_model.
 b.	Create an instance of Logistic Regression model.
@@ -79,11 +84,18 @@ e.	Check the accuracy score, precision score, recall score & F1 score. Draw the 
 f.	Draw the confusion matrix.
 g.	Draw the ROC-AUC curve.
 
-## 6]Model Evaluation
+## 6]Model Evaluation- 
+Evaluate the model’s performance on dataset using appropriate metrices such as accuracy score, precision score, recall score, F1 score and ROC-AUC. 
 
-## 7]Save the model
+## 7]Save the best model for prediction- 
+Save the model with the best accuracy score, precision score, recall score, F1 score and ROC-AUC. 
 
-## 8]User interface development
+## 8]User interface development- 
+Develop a user interface that allows bank managers and customer service representatives to input customer data, view churn predictions. It should also allow for real-time monitoring and reporting of churn metrics.
+
+# OUTPUT-
+
+## Output for this project is a binary label that indicates whether a customer is likely to churn or not. The model’s output can also provide insights into the factors that contribute to customer churn. This information can be used to identify areas for improvement in bank’s services and processes to reduce churn. 
 
 
 
